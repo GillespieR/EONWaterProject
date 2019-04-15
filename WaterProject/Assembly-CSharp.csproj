@@ -60,12 +60,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ButtonAudio.cs" />
     <Compile Include="Assets\Resources\Models\MainTank\CameraDepthTextureMode.cs" />
     <Compile Include="Assets\Resources\Scripts\ARSetupStory.cs" />
     <Compile Include="Assets\Resources\Scripts\AssemblyStory.cs" />
-    <Compile Include="Assets\Resources\Scripts\AudioManager\AudioScript.cs" />
     <Compile Include="Assets\Resources\Scripts\BlendShape.cs" />
     <Compile Include="Assets\Resources\Scripts\ClipboardScript.cs" />
+    <Compile Include="Assets\Resources\Scripts\DropperDrag.cs" />
     <Compile Include="Assets\Resources\Scripts\EventManager.cs" />
     <Compile Include="Assets\Resources\Scripts\FindAllScripts.cs" />
     <Compile Include="Assets\Resources\Scripts\Flow.cs" />
@@ -73,21 +74,27 @@
     <Compile Include="Assets\Resources\Scripts\FlowSpeed.cs" />
     <Compile Include="Assets\Resources\Scripts\GaugeHighlighter.cs" />
     <Compile Include="Assets\Resources\Scripts\GlobalFunctions.cs" />
-    <Compile Include="Assets\Resources\Scripts\LabelKeeper.cs" />
     <Compile Include="Assets\Resources\Scripts\Main Menu\GifPlayer.cs" />
     <Compile Include="Assets\Resources\Scripts\Main Menu\MenuManager.cs" />
     <Compile Include="Assets\Resources\Scripts\MovementManager.cs" />
     <Compile Include="Assets\Resources\Scripts\MySceneLoader.cs" />
     <Compile Include="Assets\Resources\Scripts\PartID.cs" />
+    <Compile Include="Assets\Resources\Scripts\PipetteSqueeze.cs" />
     <Compile Include="Assets\Resources\Scripts\QRLink.cs" />
     <Compile Include="Assets\Resources\Scripts\SceneLoader.cs" />
-    <Compile Include="Assets\Resources\Scripts\SludgeJudgeScenario.cs" />
     <Compile Include="Assets\Resources\Scripts\TextManager.cs" />
     <Compile Include="Assets\Resources\Scripts\TouchActivatedObject.cs" />
     <Compile Include="Assets\Resources\Scripts\TurnOffRedoButton.cs" />
     <Compile Include="Assets\Resources\Scripts\TurnOffTools.cs" />
     <Compile Include="Assets\Resources\Scripts\UIAudioPlayer.cs" />
-    <Compile Include="Assets\Resources\Scripts\Utility.cs" />
+    <Compile Include="Assets\Resources\Scripts\WaterDropScript.cs" />
+    <Compile Include="Assets\Scenes\Scenarios\Module4\Scripts\AudioScript.cs" />
+    <Compile Include="Assets\Scenes\Scenarios\Module4\Scripts\LabelKeeper.cs" />
+    <Compile Include="Assets\Scenes\Scenarios\Module4\Scripts\SludgeJudgeScenario.cs" />
+    <Compile Include="Assets\Scenes\Scenarios\Module4\Scripts\Utility.cs" />
+    <Compile Include="Assets\Scenes\Scenarios\Module5\Clipboard.cs" />
+    <Compile Include="Assets\Scenes\Scenarios\Module5\Mod5Scripts\TitrationScenario.cs" />
+    <Compile Include="Assets\Scenes\Scenarios\Module5\Mod5Scripts\TrackingMarker.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
